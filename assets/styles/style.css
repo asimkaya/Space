@@ -35,4 +35,65 @@ nav .nav-links img {
   transform: scale(0.45);
 }
 
+section {
+  height: 100vh;
+  overflow: hidden;
+}
+section .bg img {
+  width: 110vw;
+  height: 110vw;
+  filter: brightness(0.6);
+}
+section .bg .rock1 {
+  position: absolute !important;
+  left: 10vw !important;
+  top: 20vw !important;
+}
+section .bg .rock1 img {
+  width: 40%;
+  filter: brightness(0.5);
+}
+section .bg .text h1 {
+  font-family: "AlphaCentaur" !important;
+  font-size: 5vw;
+  color: white;
+  letter-spacing: 20px;
+  position: absolute;
+  top: 35vw;
+  left: 34vw;
+}
+section .bg .earth img {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 34vw;
+  top: 25vw;
+  z-index: 1;
+  filter: brightness(0.7);
+}
+section .bg .mid {
+  left: -150px !important;
+  bottom: -100px !important;
+  top: unset !important;
+}
+section .bg .mid img {
+  width: 100%;
+  z-index: 2;
+  left: -20px;
+  top: 20vh !important;
+  filter: brightness(0.8);
+}
+section .bg .force {
+  right: -50px !important;
+  bottom: -200px !important;
+  top: 0px !important;
+  left: unset !important;
+}
+section .bg .force img {
+  width: 400px;
+  height: 110vh;
+  z-index: 3;
+  filter: brightness(0.5);
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -37,3 +37,72 @@ nav {
         }
     }   
 }
+
+section {
+    height: 100vh;
+    overflow: hidden;
+
+    .bg {
+        img {
+            width: 110vw;
+            height: 110vw;
+            filter: brightness(0.6);
+        }
+        .rock1 {
+            position: absolute !important;
+            left: 10vw !important;
+            top: 20vw !important;
+            img {
+                width: 40%;
+                filter: brightness(0.5);
+            }
+        }
+        .text {
+            h1 {
+                font-family: "AlphaCentaur" !important;
+                font-size: 5vw;
+                color: white;
+                letter-spacing: 20px;
+                position: absolute;
+                top: 35vw;
+                left: 34vw;
+            }
+        }
+        .earth{
+            img {
+                width: 400px;
+                height: 400px;
+                position: absolute;
+                left: 34vw;
+                top: 25vw;
+                z-index: 1;
+                filter: brightness(0.7);
+            }
+        }
+        .mid {
+            left: -150px !important;
+            bottom: -100px !important;
+            top: unset !important;
+            img {
+                width: 100%;
+                z-index: 2;
+                left: -20px;
+                top: 20vh !important;
+                filter: brightness(0.8);
+            }
+        }
+        .force {
+            right: -50px !important;
+            bottom: -200px !important;
+            top: 0px !important;
+            left: unset !important;
+
+            img {
+                width: 400px;
+                height: 110vh;
+                z-index: 3;
+                filter: brightness(0.5);
+            }
+        }
+    }
+}
